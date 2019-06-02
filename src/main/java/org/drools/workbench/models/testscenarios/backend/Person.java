@@ -9,7 +9,7 @@ public class Person implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
 
 	private java.lang.String name;
-	private java.lang.Double personScore;
+	private java.lang.Double result;
 
 	public Person() {
 	}
@@ -22,17 +22,17 @@ public class Person implements java.io.Serializable {
 		this.name = name;
 	}
 
-	public java.lang.Double getPersonScore() {
-		return this.personScore;
+	public java.lang.Double getResult() {
+		return this.result;
 	}
 
-	public void setPersonScore(java.lang.Double personScore) {
-		this.personScore = personScore;
+	public void setResult(java.lang.Double result) {
+		this.result = result;
 	}
 
-	public Person(java.lang.String name, java.lang.Double personScore) {
+	public Person(java.lang.String name, java.lang.Double result) {
 		this.name = name;
-		this.personScore = personScore;
+		this.result = result;
 	}
 
 }
