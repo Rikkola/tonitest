@@ -28,6 +28,18 @@
       <name>p</name>
       <anonymous>false</anonymous>
     </expect-fact>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>result</fieldName>
+          <expected>111</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>Person</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
