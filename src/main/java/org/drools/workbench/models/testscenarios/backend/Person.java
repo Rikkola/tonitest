@@ -6,12 +6,33 @@ package org.drools.workbench.models.testscenarios.backend;
 
 public class Person implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Person() {
-    }
+	private java.lang.String name;
+	private java.lang.Double personScore;
 
+	public Person() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public java.lang.Double getPersonScore() {
+		return this.personScore;
+	}
+
+	public void setPersonScore(java.lang.Double personScore) {
+		this.personScore = personScore;
+	}
+
+	public Person(java.lang.String name, java.lang.Double personScore) {
+		this.name = name;
+		this.personScore = personScore;
+	}
 
 }
