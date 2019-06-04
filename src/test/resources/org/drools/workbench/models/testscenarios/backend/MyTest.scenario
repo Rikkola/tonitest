@@ -34,7 +34,7 @@
           <fieldName>result</fieldName>
           <expected>111</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>Person</name>
@@ -48,7 +48,7 @@
     <imports/>
   </imports>
   <ksessions>
-    <string>defaultKieSession</string>
+    <string>KSession1</string>
   </ksessions>
   <modelName>MyCard</modelName>
 </scenario>
