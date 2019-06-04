@@ -1,7 +1,7 @@
 <org.drools.workbench.models.guided.scorecard.shared.ScoreCardModel>
   <name>MyCard</name>
   <baselineScore>0.0</baselineScore>
-  <initialScore>211.0</initialScore>
+  <initialScore>211222.0</initialScore>
   <useReasonCodes>false</useReasonCodes>
   <factName>Person</factName>
   <fieldName>result</fieldName>
