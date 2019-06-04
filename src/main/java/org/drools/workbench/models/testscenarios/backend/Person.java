@@ -11,8 +11,6 @@ public class Person implements java.io.Serializable {
 	private java.lang.String name;
 	private java.lang.Double result;
 
-	private java.math.BigDecimal fff;
-
 	public Person() {
 	}
 
@@ -32,19 +30,9 @@ public class Person implements java.io.Serializable {
 		this.result = result;
 	}
 
-	public java.math.BigDecimal getFff() {
-		return this.fff;
-	}
-
-	public void setFff(java.math.BigDecimal fff) {
-		this.fff = fff;
-	}
-
-	public Person(java.lang.String name, java.lang.Double result,
-			java.math.BigDecimal fff) {
+	public Person(java.lang.String name, java.lang.Double result) {
 		this.name = name;
 		this.result = result;
-		this.fff = fff;
 	}
 
 }
