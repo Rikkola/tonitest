@@ -16,30 +16,9 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace/>
-    <expect-fact>
-      <fieldValues>
-        <expect-field>
-          <fieldName>result</fieldName>
-          <expected></expected>
-          <operator>==</operator>
-          <nature>0</nature>
-        </expect-field>
-      </fieldValues>
-      <name>p</name>
-      <anonymous>false</anonymous>
-    </expect-fact>
-    <expect-fact>
-      <fieldValues>
-        <expect-field>
-          <fieldName>result</fieldName>
-          <expected>111</expected>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
-      </fieldValues>
-      <name>Person</name>
-      <anonymous>true</anonymous>
-    </expect-fact>
+    <verify-scorecard-score>
+      <expected>77.0</expected>
+    </verify-scorecard-score>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
