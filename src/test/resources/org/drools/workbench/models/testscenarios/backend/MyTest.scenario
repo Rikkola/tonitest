@@ -17,7 +17,8 @@
     </fact-data>
     <execution-trace/>
     <verify-scorecard-score>
-      <expected>77.0</expected>
+      <result>1136.0</result>
+      <expected>1136.0</expected>
     </verify-scorecard-score>
   </fixtures>
   <rules/>
